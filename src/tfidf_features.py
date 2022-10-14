@@ -1,7 +1,7 @@
 import pandas as pd
 from sklearn.feature_extraction.text import TfidfVectorizer
 
-MAX_FEATURES = 420
+MAX_FEATURES = 200
 
 
 def create_tfidf_features():

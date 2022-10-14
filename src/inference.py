@@ -52,6 +52,7 @@ def get_ans(*args):
     ans["Analytical thinking"] = args[2]
     ans["Focus"] = args[3]
 
-    ans.to_csv(f"ans_.csv", index=False)
+    save_file_name = input()
+    ans.to_csv(f"{save_file_name}.csv", index=False)
 
     return ans
